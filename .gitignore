@@ -1,0 +1,30 @@
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment files
+.env
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Mac files
+.DS_Store
+
+# Compiled files
+dist/
+build/
