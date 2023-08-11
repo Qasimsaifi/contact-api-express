@@ -19,6 +19,9 @@ app.use("/api/contacts", require("./routes/contactsRouter"));
 app.use("/api/users", require("./routes/userRouter"));
 
 app.use(express.static(path.join(__dirname, "public")));
+app.get("/favicon.ico", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "favicon.ico"));
+});
 
 app.use(errorHandler);
 
